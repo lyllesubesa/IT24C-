@@ -36,5 +36,23 @@ updateCardContainer() {
         `;
         this.cardContainer.appendChild(card);
     });
+
+this.displayLogCount();
+} 
+
+    countLogs() {
+        return this.loggedData.length;
+    }
+
+
+    displayLogCount() {
+        const logCount = this.countLogs();
+        this.logCountElement.innerHTML = `<p>Total Logs: ${logCount}</p>`; 
+    }
 }
-}
+
+document.addEventListener('DOMContentLoaded', () => {
+    new DataLogger('logButton', 'cardContainer', 'clearButton', 'logCount'); 
+});
+
+
