@@ -22,5 +22,12 @@
         "description": "This application applies dynamic elements such as rendering DOM elements from a list",
         "imageUrl": "",
         "link": "./Applet 4/"
+    },
+
+    {
+        "title": "Applet 5 - Weather",
+        "description": "This application applies dynamic elements such as rendering DOM elements from a list",
+        "imageUrl": "",
+        "link": "./Applet 5/"
     }
   ]
